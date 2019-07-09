@@ -14,5 +14,3 @@ def introduction_with_language_optional(*args)
     introduction_with_language(args[0],args[1])
   end
 end
-
-introduction_with_language_optional("Bob")
