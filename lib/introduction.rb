@@ -10,7 +10,7 @@ def introduction_with_language_optional(*args)
   if args.size == 1
     introduction_with_language(args[0],"Ruby")
   end
-  if ars.size == 2 
+  if args.size == 2 
     introduction_with_language(args[0],args[1])
   end
 end
